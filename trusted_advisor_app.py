@@ -12,7 +12,8 @@ client = OpenAI(api_key=st.secrets["openai"]["api_key"])
 
 
 st.set_page_config(page_title="Trusted Advisor AI", page_icon="🎙️")
-st.image("https://via.placeholder.com/600x100.png?text=Trusted+Advisor+AI", use_column_width=True)
+st.image("https://via.placeholder.com/600x100.png?text=Trusted+Advisor+AI", use_container_width=True)
+
 st.title("🎙️ AI Gesprekstraining - The Trusted Advisor")
 st.markdown("""
 Welkom bij de AI-gesprekscoach gebaseerd op de Trusted Advisor-principes.
