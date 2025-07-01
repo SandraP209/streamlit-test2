@@ -12,7 +12,7 @@ client = OpenAI(api_key=st.secrets["openai"]["api_key"])
 
 
 st.set_page_config(page_title="Trusted Advisor AI", page_icon="🎙️")
-st.image("https://raw.githubusercontent.com/SandraP209/streamlit-test2/main/Thexton-Armstrong-Logo-portrait_RGB.png", use_container_width=True)
+st.image("https://raw.githubusercontent.com/SandraP209/streamlit-test2/main/Thexton-Armstrong-Logo-portrait_RGB.png", , width=300)
 
 st.title("🎙️ AI Gesprekstraining - The Trusted Advisor")
 st.markdown("""
